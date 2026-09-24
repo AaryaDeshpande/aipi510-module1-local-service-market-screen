@@ -1,0 +1,157 @@
+{
+  "source": "U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics",
+  "source_url": "https://www.bls.gov/oes/2025/may/oessrci.htm",
+  "api_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "methods_url": "https://www.bls.gov/oes/2025/may/oes_tec.htm",
+  "reference_year": 2025,
+  "period": "A01",
+  "naics_version": 2022,
+  "retrieved_at_utc": "2026-09-24T00:06:14+00:00",
+  "notes": "Employment estimates are rounded by BLS. Office/administrative share is derived as SOC 43-0000 employment divided by SOC 00-0000 employment within the same OEWS industry; it is not a separately downloaded estimate.",
+  "records": [
+    {
+      "oews_industry_code": "621200",
+      "industry_title": "Offices of Dentists",
+      "total_employment": 1054930,
+      "admin_employment": 297210,
+      "admin_annual_mean_wage": 51480,
+      "series_ids": {
+        "total_employment": "OEUN000000062120000000001",
+        "admin_employment": "OEUN000000062120043000001",
+        "admin_annual_mean_wage": "OEUN000000062120043000004"
+      }
+    },
+    {
+      "oews_industry_code": "541940",
+      "industry_title": "Veterinary Services",
+      "total_employment": 471540,
+      "admin_employment": 105400,
+      "admin_annual_mean_wage": 43350,
+      "series_ids": {
+        "total_employment": "OEUN000000054194000000001",
+        "admin_employment": "OEUN000000054194043000001",
+        "admin_annual_mean_wage": "OEUN000000054194043000004"
+      }
+    },
+    {
+      "oews_industry_code": "621310",
+      "industry_title": "Offices of Chiropractors",
+      "total_employment": 147350,
+      "admin_employment": 59400,
+      "admin_annual_mean_wage": 42280,
+      "series_ids": {
+        "total_employment": "OEUN000000062131000000001",
+        "admin_employment": "OEUN000000062131043000001",
+        "admin_annual_mean_wage": "OEUN000000062131043000004"
+      }
+    },
+    {
+      "oews_industry_code": "621320",
+      "industry_title": "Offices of Optometrists",
+      "total_employment": 155780,
+      "admin_employment": 47350,
+      "admin_annual_mean_wage": 43130,
+      "series_ids": {
+        "total_employment": "OEUN000000062132000000001",
+        "admin_employment": "OEUN000000062132043000001",
+        "admin_annual_mean_wage": "OEUN000000062132043000004"
+      }
+    },
+    {
+      "oews_industry_code": "621340",
+      "industry_title": "Offices of Physical, Occupational and Speech Therapists, and Audiologists",
+      "total_employment": 509960,
+      "admin_employment": 79910,
+      "admin_annual_mean_wage": 44480,
+      "series_ids": {
+        "total_employment": "OEUN000000062134000000001",
+        "admin_employment": "OEUN000000062134043000001",
+        "admin_annual_mean_wage": "OEUN000000062134043000004"
+      }
+    },
+    {
+      "oews_industry_code": "541100",
+      "industry_title": "Legal Services",
+      "total_employment": 1224710,
+      "admin_employment": 305700,
+      "admin_annual_mean_wage": 57710,
+      "series_ids": {
+        "total_employment": "OEUN000000054110000000001",
+        "admin_employment": "OEUN000000054110043000001",
+        "admin_annual_mean_wage": "OEUN000000054110043000004"
+      }
+    },
+    {
+      "oews_industry_code": "541200",
+      "industry_title": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services",
+      "total_employment": 1091370,
+      "admin_employment": 292350,
+      "admin_annual_mean_wage": 52180,
+      "series_ids": {
+        "total_employment": "OEUN000000054120000000001",
+        "admin_employment": "OEUN000000054120043000001",
+        "admin_annual_mean_wage": "OEUN000000054120043000004"
+      }
+    },
+    {
+      "oews_industry_code": "811100",
+      "industry_title": "Automotive Repair and Maintenance",
+      "total_employment": 1039270,
+      "admin_employment": 105090,
+      "admin_annual_mean_wage": 46510,
+      "series_ids": {
+        "total_employment": "OEUN000000081110000000001",
+        "admin_employment": "OEUN000000081110043000001",
+        "admin_annual_mean_wage": "OEUN000000081110043000004"
+      }
+    },
+    {
+      "oews_industry_code": "238210",
+      "industry_title": "Electrical Contractors and Other Wiring Installation Contractors",
+      "total_employment": 1109770,
+      "admin_employment": 88310,
+      "admin_annual_mean_wage": 54120,
+      "series_ids": {
+        "total_employment": "OEUN000000023821000000001",
+        "admin_employment": "OEUN000000023821043000001",
+        "admin_annual_mean_wage": "OEUN000000023821043000004"
+      }
+    },
+    {
+      "oews_industry_code": "238220",
+      "industry_title": "Plumbing, Heating, and Air-Conditioning Contractors",
+      "total_employment": 1310510,
+      "admin_employment": 160890,
+      "admin_annual_mean_wage": 52150,
+      "series_ids": {
+        "total_employment": "OEUN000000023822000000001",
+        "admin_employment": "OEUN000000023822043000001",
+        "admin_annual_mean_wage": "OEUN000000023822043000004"
+      }
+    },
+    {
+      "oews_industry_code": "561730",
+      "industry_title": "Landscaping Services",
+      "total_employment": 953760,
+      "admin_employment": 62150,
+      "admin_annual_mean_wage": 49190,
+      "series_ids": {
+        "total_employment": "OEUN000000056173000000001",
+        "admin_employment": "OEUN000000056173043000001",
+        "admin_annual_mean_wage": "OEUN000000056173043000004"
+      }
+    },
+    {
+      "oews_industry_code": "621600",
+      "industry_title": "Home Health Care Services",
+      "total_employment": 1789480,
+      "admin_employment": 95750,
+      "admin_annual_mean_wage": 50010,
+      "series_ids": {
+        "total_employment": "OEUN000000062160000000001",
+        "admin_employment": "OEUN000000062160043000001",
+        "admin_annual_mean_wage": "OEUN000000062160043000004"
+      }
+    }
+  ]
+}
