@@ -36,6 +36,7 @@ def test_build_features_and_sanity_checks() -> None:
     data = build_market_screen()
     assert len(data) == 12
     assert data["industry"].is_unique
+    assert data.notna().all().all()
     assert data["small_establishments"].le(data["total_establishments"]).all()
     assert data["market_depth"].equals(data["small_establishments"])
     expected = (
