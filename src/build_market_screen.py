@@ -54,8 +54,12 @@ def build_market_screen(
     mapping = pd.read_csv(
         mapping_path, dtype={"cbp_naics_2017": str, "bls_naics_2022": str}
     )
-    if mapping["industry"].duplicated().any() or mapping["cbp_naics_2017"].duplicated().any():
-        raise ValueError("Industry mapping contains duplicate labels or CBP codes")
+    if (
+        mapping["industry"].duplicated().any()
+        or mapping["cbp_naics_2017"].duplicated().any()
+        or mapping["bls_naics_2022"].duplicated().any()
+    ):
+        raise ValueError("Industry mapping contains duplicate labels or NAICS codes")
     validate_naics_scope(mapping, concordance_path)
 
     census = load_cbp(cbp_path, mapping)
@@ -75,8 +79,8 @@ def build_market_screen(
     joined["cbp_year"] = 2023
     joined["oews_reference_year"] = 2025
 
-    if not joined[OUTPUT_COLUMNS].select_dtypes(include="number").notna().all().all():
-        raise ValueError("Missing numeric metric in output")
+    if joined[OUTPUT_COLUMNS].isna().any().any():
+        raise ValueError("Missing value in output")
     if not joined["small_establishment_share"].between(0, 1).all():
         raise ValueError("Invalid share of small establishments")
     if not joined["admin_employment_share"].between(0, 1).all():

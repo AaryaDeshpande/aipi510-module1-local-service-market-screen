@@ -2,7 +2,7 @@
 
 **Research question:** Which selected U.S. local-service industries combine many small employer establishments with a substantial office and administrative workforce—and therefore merit closer customer discovery?
 
-This repository is a reproducible **screen for interviews**, not a ranking of businesses or a product recommendation. It compares 12 deliberately selected industries with public Census and BLS data, exposes each measure separately, and documents the assumptions behind a directional wage-payroll proxy. The [infographic and brief explanation](public/infographic_explanation.md) and [longer article](docs/index.md) explain the findings for a general audience.
+This repository is a reproducible **screen for interviews**, not a ranking of businesses or a product recommendation. It compares 12 deliberately selected industries with public Census and BLS data, exposes each measure separately, and documents the assumptions behind a directional wage-payroll proxy. The [longer article](docs/index.md) explains the findings for a general audience.
 
 ## What is here
 
@@ -20,7 +20,6 @@ This repository is a reproducible **screen for interviews**, not a ranking of bu
 | `data/processed/local_service_market_screen.csv` | Analysis-ready output: one row per selected industry. |
 | `data/processed/eda_summary.json` | Machine-readable exploratory and quality-control summary. |
 | `figures/` and `docs/` | Three visualizations and a longer public-facing article. |
-| `public/` | One-page infographic, brief written explanation, and the script used to regenerate its SVG from the processed table. |
 | `tests/test_pipeline.py` | Source, crosswalk, formula, and sanity-check tests. |
 
 The included raw snapshots make the analysis reproducible without depending on the sources staying online. Refreshing them later may change the results if an agency revises its files or estimates.
@@ -35,7 +34,7 @@ The comparison universe is not exhaustive. It contains 12 local-service industri
 
 ## Reproduce from a clean Python environment
 
-Use Python **3.11 or newer**. From this repository's root, on macOS/Linux:
+Use Python **3.10 or newer**. From this repository's root, on macOS/Linux:
 
 ```bash
 python3 -m venv .venv
@@ -47,7 +46,6 @@ python src/load_oews.py
 python src/build_market_screen.py
 python src/eda.py
 python src/make_figures.py
-python public/make_infographic.py
 python -m pytest -q
 ```
 
@@ -84,4 +82,4 @@ The figures deliberately show the dimensions rather than combining them into a b
 
 ## Collaboration and review
 
-For the team submission, each group member should make and explain at least one meaningful change on a separate branch, open their **own** pull request, and review the other's changes before merging. The final story, chart interpretations, interview shortlist, presentation, public-access settings, and submission links need human verification. Reproducible figures and passing tests do not replace a check of source definitions and conclusions.
+For the team submission, each group member must make at least one PR and follow best practices for reviews and commits
