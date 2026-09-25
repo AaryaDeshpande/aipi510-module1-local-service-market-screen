@@ -1,0 +1,75 @@
+{
+  "industry_count": 12,
+  "missing_values": {
+    "industry": 0,
+    "cbp_naics_2017": 0,
+    "bls_naics_2022": 0,
+    "scope_note": 0,
+    "cbp_year": 0,
+    "oews_reference_year": 0,
+    "total_establishments": 0,
+    "establishments_lt5": 0,
+    "establishments_5_9": 0,
+    "establishments_10_19": 0,
+    "small_establishments": 0,
+    "market_depth": 0,
+    "small_establishment_share": 0,
+    "cbp_total_employment": 0,
+    "avg_employees_per_establishment": 0,
+    "oews_total_employment": 0,
+    "oews_admin_employment": 0,
+    "admin_employment_share": 0,
+    "admin_mean_wage": 0,
+    "estimated_admin_payroll_per_establishment": 0
+  },
+  "metric_summary": {
+    "small_establishments": {
+      "min": 21524.0,
+      "median": 86005.5,
+      "max": 170721.0
+    },
+    "small_establishment_share": {
+      "min": 0.62259,
+      "median": 0.9362035,
+      "max": 0.991632
+    },
+    "avg_employees_per_establishment": {
+      "min": 3.759828,
+      "median": 8.276471,
+      "max": 39.712453
+    },
+    "admin_employment_share": {
+      "min": 0.053507,
+      "median": 0.190111,
+      "max": 0.403122
+    },
+    "admin_mean_wage": {
+      "min": 42280.0,
+      "median": 49600.0,
+      "max": 57710.0
+    },
+    "estimated_admin_payroll_per_establishment": {
+      "min": 21815.836498,
+      "median": 78061.9091475,
+      "max": 134232.666702
+    }
+  },
+  "iqr_outliers": {
+    "small_establishments": [],
+    "small_establishment_share": [
+      "Home health care services"
+    ],
+    "avg_employees_per_establishment": [
+      "Home health care services"
+    ],
+    "admin_employment_share": [],
+    "admin_mean_wage": [],
+    "estimated_admin_payroll_per_establishment": []
+  },
+  "source_employment_ratio": {
+    "min": 0.8408121757017554,
+    "median": 1.05020071987391,
+    "max": 1.1878953641740742,
+    "largest_gap_industry": "Landscaping services"
+  }
+}

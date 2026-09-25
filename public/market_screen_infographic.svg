@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200" role="img" aria-labelledby="title desc">
+<title id="title">Where should founders interview first? A local-service market screen</title>
+<desc id="desc">Scatterplot of 12 selected U.S. service industries. Horizontal position is the 2023 share of employer establishments with fewer than 20 employees. Vertical position is a directional office and administrative wage-payroll proxy combining 2023 Census and May 2025 BLS data. Bubble area represents the count of small employer establishments. Accounting and tax services, dental offices, legal services, and chiropractors are suggested interview starting points, not proven software opportunities. The proxy is not observed payroll, demand, or evidence of automatable work.</desc>
+<style>
+          text { font-family: Arial, Helvetica, sans-serif; fill: #173539; }
+          .eyebrow { font-size: 21px; font-weight: 700; letter-spacing: 2.6px; fill: #087f78; }
+          .title { font-size: 57px; font-weight: 700; letter-spacing: -1.4px; }
+          .deck { font-size: 26px; fill: #40585a; }
+          .section { font-size: 27px; font-weight: 700; }
+          .axis { font-size: 19px; fill: #526467; }
+          .axis-title { font-size: 21px; font-weight: 700; }
+          .point-label { font-size: 18px; font-weight: 700; }
+          .point-detail { font-size: 16px; fill: #4a6062; }
+          .panel-heading { font-size: 27px; font-weight: 700; }
+          .panel-lede { font-size: 19px; fill: #4a6062; }
+          .item-name { font-size: 22px; font-weight: 700; }
+          .item-value { font-size: 18px; fill: #385457; }
+          .caption { font-size: 17px; fill: #3d5659; }
+          .footer { font-size: 19px; fill: #ecf7f4; }
+          .footer-strong { font-size: 21px; font-weight: 700; fill: #ffffff; }
+        </style>
+<rect width="1800" height="1200" fill="#f7f6f0"/>
+<rect x="0" y="0" width="1800" height="17" fill="#087f78"/>
+<text x="78.0" y="75.0" class="eyebrow" text-anchor="start">PUBLIC-DATA MARKET SCREEN</text>
+<text x="78.0" y="148.0" class="title" text-anchor="start">Where should founders interview first?</text>
+<text x="80.0" y="202.0" class="deck" text-anchor="start">12 selected U.S. local-service industries · structural clues, not product verdicts</text>
+<line x1="78" y1="239" x2="1722" y2="239" stroke="#cbd8d2" stroke-width="2"/>
+<text x="145.0" y="294.0" class="section" text-anchor="start">Many small locations + meaningful office work</text>
+<text x="145.0" y="322.0" class="axis-title" text-anchor="start">Directional office/admin wage-payroll proxy per establishment ($)</text>
+<line x1="144" y1="920.0" x2="1160" y2="920.0" stroke="#d9e1dc" stroke-width="2"/>
+<text x="127.0" y="927.0" class="axis" text-anchor="end">$0</text>
+<line x1="144" y1="726.0" x2="1160" y2="726.0" stroke="#d9e1dc" stroke-width="2"/>
+<text x="127.0" y="733.0" class="axis" text-anchor="end">$50k</text>
+<line x1="144" y1="532.0" x2="1160" y2="532.0" stroke="#d9e1dc" stroke-width="2"/>
+<text x="127.0" y="539.0" class="axis" text-anchor="end">$100k</text>
+<line x1="144" y1="338.0" x2="1160" y2="338.0" stroke="#d9e1dc" stroke-width="2"/>
+<text x="127.0" y="345.0" class="axis" text-anchor="end">$150k</text>
+<line x1="144.0" y1="338" x2="144.0" y2="920" stroke="#e3e8e2" stroke-width="2"/>
+<text x="144.0" y="952.0" class="axis" text-anchor="middle">60%</text>
+<line x1="398.0" y1="338" x2="398.0" y2="920" stroke="#e3e8e2" stroke-width="2"/>
+<text x="398.0" y="952.0" class="axis" text-anchor="middle">70%</text>
+<line x1="652.0" y1="338" x2="652.0" y2="920" stroke="#e3e8e2" stroke-width="2"/>
+<text x="652.0" y="952.0" class="axis" text-anchor="middle">80%</text>
+<line x1="906.0" y1="338" x2="906.0" y2="920" stroke="#e3e8e2" stroke-width="2"/>
+<text x="906.0" y="952.0" class="axis" text-anchor="middle">90%</text>
+<line x1="1160.0" y1="338" x2="1160.0" y2="920" stroke="#e3e8e2" stroke-width="2"/>
+<text x="1160.0" y="952.0" class="axis" text-anchor="middle">100%</text>
+<line x1="144" y1="920" x2="1160" y2="920" stroke="#849b98" stroke-width="3"/>
+<text x="652.0" y="1000.0" class="axis-title" text-anchor="middle">Share of employer locations with fewer than 20 employees · Census 2023</text>
+<circle cx="1012.3" cy="406.4" r="37.4" fill="#087f78" fill-opacity="0.78" stroke="#075e59" stroke-width="2"/>
+<circle cx="1052.0" cy="813.2" r="41.9" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="1138.7" cy="671.4" r="20.7" fill="#087f78" fill-opacity="0.78" stroke="#075e59" stroke-width="2"/>
+<circle cx="1035.4" cy="493.2" r="37.4" fill="#087f78" fill-opacity="0.78" stroke="#075e59" stroke-width="2"/>
+<circle cx="857.2" cy="716.3" r="28.2" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="201.4" cy="507.7" r="16.6" fill="#e8994b" fill-opacity="0.82" stroke="#a55b20" stroke-width="2"/>
+<circle cx="983.6" cy="835.4" r="34.5" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="1014.5" cy="552.6" r="43.0" fill="#087f78" fill-opacity="0.78" stroke="#075e59" stroke-width="2"/>
+<circle cx="1049.7" cy="585.6" r="15.3" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="872.2" cy="648.6" r="32.7" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="961.1" cy="677.5" r="22.8" fill="#8fa5a5" fill-opacity="0.45" stroke="#71898a" stroke-width="2"/>
+<circle cx="656.5" cy="399.2" r="17.3" fill="#e8994b" fill-opacity="0.82" stroke="#a55b20" stroke-width="2"/>
+<text x="645.0" y="373.0" class="point-label" text-anchor="end">Veterinary</text>
+<text x="645.0" y="395.0" class="point-detail" text-anchor="end">27,497 small locations</text>
+<text x="966.0" y="361.0" class="point-label" text-anchor="end">Accounting / tax</text>
+<text x="966.0" y="383.0" class="point-detail" text-anchor="end">129,097 small locations</text>
+<text x="974.0" y="480.0" class="point-label" text-anchor="end">Dental offices</text>
+<text x="974.0" y="502.0" class="point-detail" text-anchor="end">129,008 small locations</text>
+<text x="965.0" y="582.0" class="point-label" text-anchor="end">Legal services</text>
+<text x="965.0" y="604.0" class="point-detail" text-anchor="end">170,721 small locations</text>
+<text x="1105.0" y="734.0" class="point-label" text-anchor="end">Chiropractors</text>
+<text x="1105.0" y="756.0" class="point-detail" text-anchor="end">99.2% small locations</text>
+<text x="252.0" y="545.0" class="point-label" text-anchor="start">Home health</text>
+<text x="252.0" y="567.0" class="point-detail" text-anchor="start">62.3% small locations</text>
+<rect x="1220" y="282" width="505" height="720" rx="24" fill="#e7f0ea"/>
+<text x="1260.0" y="342.0" class="panel-heading" text-anchor="start">Four interview starting points</text>
+<text x="1260.0" y="377.0" class="panel-lede" text-anchor="start">Selected for different structural signals—</text>
+<text x="1260.0" y="404.0" class="panel-lede" text-anchor="start">not ranked product opportunities.</text>
+<circle cx="1268" cy="466" r="9" fill="#087f78"/>
+<text x="1292.0" y="474.0" class="item-name" text-anchor="start">Accounting / tax</text>
+<text x="1292.0" y="506.0" class="item-value" text-anchor="start">129,097 small locations  ·  26.8% admin share</text>
+<line x1="1260" y1="540" x2="1685" y2="540" stroke="#cbdcd3" stroke-width="2"/>
+<circle cx="1268" cy="592" r="9" fill="#087f78"/>
+<text x="1292.0" y="600.0" class="item-name" text-anchor="start">Dental offices</text>
+<text x="1292.0" y="632.0" class="item-value" text-anchor="start">129,008 small locations  ·  28.2% admin share</text>
+<line x1="1260" y1="666" x2="1685" y2="666" stroke="#cbdcd3" stroke-width="2"/>
+<circle cx="1268" cy="718" r="9" fill="#087f78"/>
+<text x="1292.0" y="726.0" class="item-name" text-anchor="start">Legal services</text>
+<text x="1292.0" y="758.0" class="item-value" text-anchor="start">170,721 small locations  ·  25.0% admin share</text>
+<line x1="1260" y1="792" x2="1685" y2="792" stroke="#cbdcd3" stroke-width="2"/>
+<circle cx="1268" cy="844" r="9" fill="#087f78"/>
+<text x="1292.0" y="852.0" class="item-name" text-anchor="start">Chiropractors</text>
+<text x="1292.0" y="884.0" class="item-value" text-anchor="start">39,579 small locations  ·  40.3% admin share</text>
+<circle cx="1272" cy="932" r="10" fill="#087f78"/>
+<text x="1295.0" y="939.0" class="caption" text-anchor="start">Interview starting points</text>
+<circle cx="1272" cy="961" r="10" fill="#e8994b"/>
+<text x="1295.0" y="968.0" class="caption" text-anchor="start">Contrasting examples</text>
+<circle cx="1272" cy="990" r="10" fill="#8fa5a5" fill-opacity="0.55"/>
+<text x="1295.0" y="997.0" class="caption" text-anchor="start">Other selected industries</text>
+<rect x="0" y="1040" width="1800" height="160" fill="#173d40"/>
+<text x="78.0" y="1088.0" class="footer-strong" text-anchor="start">Read the bubbles as interview leads—not addressable spend.</text>
+<text x="78.0" y="1125.0" class="footer" text-anchor="start">Bubble area = number of employer locations with &lt;20 employees. The vertical measure is a constructed proxy:</text>
+<text x="78.0" y="1153.0" class="footer" text-anchor="start">Census average employees/location × BLS office/admin employment share × BLS annual mean wage.</text>
+<text x="78.0" y="1181.0" class="footer" text-anchor="start">Sources: 2023 Census CBP + May 2025 BLS OEWS. Not observed payroll, customer demand, or evidence of automatable work.</text>
+</svg>

@@ -1,0 +1,13 @@
+industry,cbp_naics_2017,bls_naics_2022,scope_note
+Dental offices,6212//,621200,Offices of dentists; four-digit industry in both sources
+Veterinary services,541940,541940,Same six-digit industry in both sources
+Chiropractors,621310,621310,Same six-digit industry in both sources
+Optometrists,621320,621320,Same six-digit industry in both sources
+Therapy practices,621340,621340,Physical occupational and speech therapists and audiologists
+Legal services,5411//,541100,Four-digit legal-services industry in both sources
+Accounting and tax services,5412//,541200,Four-digit accounting tax preparation bookkeeping and payroll industry
+Automotive repair and maintenance,8111//,811100,Four-digit industry includes repair maintenance and car washes
+Electrical contractors,238210,238210,Same six-digit industry in both sources
+Plumbing and HVAC contractors,238220,238220,Same six-digit industry in both sources
+Landscaping services,561730,561730,Same six-digit industry in both sources
+Home health care services,6216//,621600,Four-digit home-health industry in both sources
